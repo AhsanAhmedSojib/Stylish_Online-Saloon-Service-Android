@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2A377C"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stylish"
+        android:textSize="80dp"
+        android:textColor="#F1F0F0"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:textStyle="bold|italic"
+        android:textAppearance="@style/AppTheme"/>
+
+    <TextView
+        android:id="@+id/stylishTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reveal yourself"
+        android:layout_marginLeft="200dp"
+        android:textColor="#ABB2B8"
+        android:textStyle="italic"
+        android:textSize="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/PB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        style="@android:style/Widget.ProgressBar.Inverse"/>
+</LinearLayout>
